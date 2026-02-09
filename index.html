@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirect</title>
+    <script>
+      const path = window.location.pathname.replace("/", "");
+      const base = "https://opulldzggbzsnfyvtohx.supabase.co/functions/v1/resolve-short-link/";
+      window.location.href = base + path;
+    </script>
+  </head>
+  <body>
+    Redirecting...
+  </body>
+</html>
